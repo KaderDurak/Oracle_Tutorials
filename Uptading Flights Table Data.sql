@@ -71,7 +71,9 @@ select * from flights;
 
 /* CORRELATED UPTADE
 
- For all flights with OPERATING_CARRIER_CODE='BA' that depart on 1 Jan 2015 , it appends zero to the flight number and sets the flight duration to the duration of the AA flight on the same day and same route. It also sets the departure times for these flights to 11AM GMT.*/
+ For all flights with OPERATING_CARRIER_CODE='BA' that depart on 1 Jan 2015 ,
+ it appends zero to the flight number and sets the flight duration to the duration of the AA flight on the same day and same route.
+ It also sets the departure times for these flights to 11AM GMT.*/
 
 
 update flights f1 
